@@ -1,0 +1,216 @@
+/* NavBar style starts here */
+nav ul li a{
+background-color:  rgba(114, 224, 236, 0.596);
+font-size:17px;
+}
+.navbar{
+  background-color:  #2062CA;
+  padding: 1rem 0;
+}
+
+/* Slider starts here */
+.carousel-indicators{
+  color: rgba(22, 153, 185, 0.781);
+}
+.carousel-caption{
+  color:rgba(17, 59, 99, 0.781);
+  padding-top: -20rem;    
+}
+.carousel-indicators .active{
+  background-color: rgba(22, 153, 185, 0.781);
+}
+.carousel-indicators li{
+  width: 14px; 
+  height: 14px; 
+  border-radius: 100%;
+  
+}
+.carousel-item .text{
+  color: rgba(29, 85, 122, 0.781);
+  font-weight: bold;
+}
+.carousel-item ul{
+  width:70%;
+  font-size: 3rem;
+  color: rgba(9, 119, 146, 0.781);
+  margin: auto;
+  padding-bottom: 10%;
+  list-style: none;
+  font-weight: bold;
+}
+.sliderdiv{
+  border-bottom: 1px solid rgb(219, 253, 255);
+}
+#silderimg{
+  background-image: url(../images/slider\ Pseb1.PNG);
+  background-repeat: no-repeat;
+}
+
+/* Vendors images style */
+.cloudserver h2{
+  color: rgba(9, 119, 146, 0.781);
+  margin-top: 5%;
+}
+
+/* Footer style */
+.footer{
+  background-color:  #2062CA;
+}
+
+/* Media Query */
+@media screen and (max-width: 416px) {
+.image{
+  background-image: url(../images/logo.PNG);
+  background-repeat: no-repeat;
+}
+.carousel-item h5{
+  font-size:1rem;
+}
+ul#list {
+  min-width: 696px;
+  list-style: none;
+  bottom: 0;
+}
+ul#list li {
+  display: inline;
+  font-size: 16px;
+}
+#listdiv{ 
+  padding-top: 13rem;
+  padding-left: 9px;
+}    
+  nav ul li a{
+  background-color:  #2062CA;
+}   
+} 
+
+@media screen and (min-width: 540px) {
+.image{
+  background-image: url(../images/loogo2.PNG);
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+  padding-top: 3rem;
+  }
+.carousel-item li{
+  font-size:1.5rem;
+  margin-left: -3rem;
+  }
+nav ul li a{
+  background-color:  #2062CA;
+  }   
+          
+}
+      
+@media screen and (min-width: 600px) {
+  nav ul li a{
+  background-color:  #2062CA;
+  }  
+  .image{
+  background-image: url(../images/slider\ Pseb1.PNG);
+  background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .image{
+    background-image: url(../images/33333.PNG);
+    background-repeat: no-repeat;
+    padding-top: 4rem;
+    padding-bottom: 4.5rem;
+    padding-right: 7rem;
+  }
+  .carousel-item li{
+    font-size:2rem;  
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .image{
+    background-image: url(../images/33333.PNG);
+    background-repeat: no-repeat;
+    margin-left: 0.1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+    
+@media screen and (min-width: 912px) {
+  .image{
+    background-image: url(../images/333331.PNG);
+    background-repeat: no-repeat;
+    }
+  .carousel-item li{
+    font-size:2rem; 
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+  .image{
+    background-image: url(../images/logooo5.PNG);
+    margin-left: 2rem;
+    padding-bottom: 5rem;
+    background-repeat: no-repeat;
+  } 
+  nav ul li a{
+    background-color:  rgba(114, 224, 236, 0.596);
+    }       
+}
+
+@media screen and (min-width: 1280px) {
+  .image{
+    background-image: url(../images/slider\ Pseb1.PNG);
+    background-repeat: no-repeat; 
+  }
+  .carousel-item li{
+    font-size: 3rem;
+    padding-top: -2rem;
+  }  
+}
+
+/* @media screen and (min-width:916px),(min-width:1273px){
+  .image{
+    background-image: url(../images/slider\ Pseb1.png);
+    background-repeat: no-repeat;
+  }
+}  */
+
+@media screen and (max-width: 280px) {
+  .image{
+    background-image: url(../images/small.PNG);
+    background-repeat: no-repeat;
+    padding-right: 3rem;
+  }
+  .carousel-item h5{
+    font-size:small;
+  }
+  ul#list {
+    min-width: 696px;
+    list-style: none;
+    bottom: 0;
+  }
+  ul#list li {
+    display: inline;
+    font-size: 10px;
+  }
+  #listdiv{ 
+    padding-top: 8rem;
+    padding-left: 9px;
+  }    
+  nav ul li a{
+    background-color:  #2062CA;
+  }   
+} 
+  
+
+
+
+
+
+
+
+
+
+    
+
+   
